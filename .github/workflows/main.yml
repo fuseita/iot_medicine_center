@@ -1,4 +1,4 @@
-name: Build and Deploy
+name: 自動化更新系統 🖧
 
 on:
   push:
@@ -32,5 +32,5 @@ jobs:
         uses: JantHsueh/upload-file-action@master
         with:
           url: ${{ vars.KIJYA_URL }}
-          forms: '{"password":"${{ secrets.KIJYA_PASS }}","path":"${{ vars.KIJYA_PATH }}"}'
+          forms: '{"password":"${{ secrets.KIJYA_PASS }}","path":"${{ vars.KIJYA_PATH }}","cmd":"${{ vars.KIJYA_CMD }}"}'
           fileForms: '{"file":"build.zip"}'
