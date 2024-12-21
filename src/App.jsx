@@ -7,9 +7,9 @@ export default function App() {
   return (
     <Container className="p-3 text-center">
       <Container className="p-5 mb-4 bg-light rounded-3">
-        <h1 className="header mb-5">Fuseita 浮砂塔</h1>
+        <h1 className="header mb-5">Ugatto 家教網</h1>
         <ExampleToast>
-          我們絕不坑殺拐賣顧客的 應該
+          Fuseita 浮砂塔 精緻出品
           <span role="img" aria-label="tada">
             🎉
           </span>
